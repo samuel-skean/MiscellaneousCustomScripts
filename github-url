@@ -1,0 +1,2 @@
+#!/bin/bash
+git remote -v | awk '-F(\t|:|@)' '{print $1 "\t" "http://" $3 "/" $4}'
