@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# NOTE: Only works on macOS.
+
+open $(~/bin/github-url | awk '{print $2; exit}')
