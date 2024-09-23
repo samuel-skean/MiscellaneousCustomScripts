@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Assumes that your ssh config is set up with github as the name of an entry to
 # login to github.com as the user git. Takes an SSH URL as copied from
