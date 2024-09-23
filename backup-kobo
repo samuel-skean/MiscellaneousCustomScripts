@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+rsync -av /Volumes/KOBOeReader/* /Volumes/KOBOeReader/.* ~/Private/Kobo_Backup
+cd ~/Private/Kobo_Backup
+git add * .*
+git commit -m "Commit created by backup-kobo script."
