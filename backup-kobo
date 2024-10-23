@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
-rsync -av /Volumes/KOBOeReader/* /Volumes/KOBOeReader/.* ~/Private/Kobo_Backup
-cd ~/Private/Kobo_Backup
+# TODO: Make this script not fail even if the rsync command fails. Also, check
+# that that's actually happening.
+rsync -av /Volumes/KOBOeReader ~/Private/New_KOBO_Backup/KOBOeReader
+cd ~/Private/New_KOBO_Backup
 git add * .*
 git commit -m "Commit created by backup-kobo script."
