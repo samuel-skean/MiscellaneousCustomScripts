@@ -2,4 +2,5 @@
 
 # NOTE: Only works on macOS.
 
-open $(~/bin/github-url | awk '{print $2; exit}')
+echo "TODO: Make this script invoke things based on the location of this script." >&2
+open $(~/.local/bin/github-url | awk '{print $2; exit}')
