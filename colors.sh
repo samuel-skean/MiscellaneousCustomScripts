@@ -1,7 +1,7 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #
-#    This is slightly altered from the original which is found here:
-#    http://www.tldp.org/HOWTO/Bash-Prompt-HOWTO/x329.html
+#    This is based on the script found here:
+#     https://gist.githubusercontent.com/sdeaton2/8450564/raw/2c9a8121c1fd4d4eee3dae9f90994705f993629b/colors.sh
 #
 #    Each line is the color code of one foreground color, out of 17
 #    (default + 16 escapes), followed by a test use of that color
