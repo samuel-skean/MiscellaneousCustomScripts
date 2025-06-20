@@ -1,2 +1,0 @@
-#!/usr/bin/env bash
-git remote -v | awk '-F(\t|:)' '{print $1 "\t" "http://github.com/" $3}'

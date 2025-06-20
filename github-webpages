@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+echo 'TODO: Make this strip the `.git` off of the ends of the URLs.' >&2
+echo 'TODO: Make this only transform remotes that are github remotes.' >&2
+git remote -v | awk '-F(\t|:)' '{print $1 "\t" "http://github.com/" $3}'
