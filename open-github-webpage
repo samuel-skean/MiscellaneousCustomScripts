@@ -3,4 +3,4 @@
 # TODO: Check on non-macOS platforms.
 
 echo "TODO: Make this script invoke things based on the location of this script." >&2
-open $(~/.local/bin/github-url | awk '{print $2; exit}')
+open $(~/scripts/github-webpages | awk '{print $2; exit}')
